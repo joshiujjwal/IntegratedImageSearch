@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Integrated Image Search",
+  "description": "This extension allows to search images from Flickr , Getty & Bing",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+	 "tabs",
+    "https://secure.flickr.com/",
+	"https://api.gettyimages.com/v3/",
+	"https://api.datamarket.azure.com/Bing/Search",
+	"http://ujjwaljoshi.com/projects/ext/bing_basic.php"
+  ]
+}

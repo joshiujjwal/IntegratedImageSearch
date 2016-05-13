@@ -1,0 +1,70 @@
+<html >
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" >
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="stylesheet" type ="text/css" href="bootstrap.css">
+	<!-- <link rel="stylesheet" type ="text/css" href="popup.css"> -->
+	 <!-- CSS =============================================================--> 
+
+	 <!--=============================================================--> 
+  
+    <title>Image Search</title>
+<h1 align="center" >Image Search</h1>
+<hr>
+</head>
+<body>
+<div class="container">
+ <div class="row">
+  <div class="col-xs-4 col-md-2">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input class="styled" type="checkbox" aria-label="..." id="flickr" ><label class="styled" for="flickr">Flickr</label>
+      </span>
+      </div>
+  </div>
+  <div class="col-xs-4 col-md-2">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input class="styled" type="checkbox" aria-label="..." id="getty"><label class="styled" for="getty">Getty</label>
+      </span>
+     
+    </div>
+  </div>
+  <div class="col-xs-4 col-md-2">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input class="styled" type="checkbox" aria-label="..." id="bing"><label class="styled" for="bing">Bing</label>
+      </span>
+   
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="input-group">
+	<input type="text" class="form-control" id = "mySearch" placeholder="Search for..." >
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="searchbtn">Go!</button>
+      </span>
+      
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+ </div><!-- /.row -->
+ 
+ </div>
+ <div class="container">
+  <div id="imgContainer_Flickr"></div> 
+  <div id="imgContainer_Getty"></div>
+  <div id="imgContainer_Bing"></div>
+</div>
+
+
+ <script src="jquery.min.js"></script>
+    <script src="popup.js" type="text/javascript"></script>
+
+
+</body>
+</html>
+
